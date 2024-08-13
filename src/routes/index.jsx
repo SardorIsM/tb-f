@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import {
-    Login, All, Main, AdminMain
+    Login, All, Main, AdminMain, CreateSovolar
 } from '../pages'
 
 
@@ -17,6 +17,7 @@ const RoutesWrapper = () => {
 
                 <Route path='/admin' element={<Login />} />
                 <Route path='/admin/main' element={<AdminMain />} />
+                <Route path='/admin/sovolar/create' element={<CreateSovolar />} />
 
                 
 
